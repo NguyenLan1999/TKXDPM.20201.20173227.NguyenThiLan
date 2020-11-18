@@ -10,19 +10,18 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Pane layoutX="-1.0" prefHeight="87.0" prefWidth="735.0" style="-fx-background-color: white;">
          <children>
-            <Label layoutX="33.0" layoutY="27.0" prefHeight="53.0" prefWidth="118.0" text="CART">
+            <HBox layoutX="207.0" layoutY="44.0" prefHeight="53.0" prefWidth="112.0" />
+            <Label layoutX="110.0" layoutY="44.0" prefHeight="53.0" prefWidth="118.0" text="CART" textFill="#140597">
                <font>
                   <Font name="System Bold" size="36.0" />
                </font>
             </Label>
          </children>
       </Pane>
-      <HBox prefHeight="100.0" prefWidth="200.0" />
       <HBox layoutY="87.0" prefHeight="421.0" prefWidth="555.0" style="-fx-background-color: white; -fx-border-color: black;">
          <children>
             <Pane prefHeight="419.0" prefWidth="552.0" style="-fx-background-color: white;">
@@ -39,8 +38,8 @@
                   </Label>
                   <Button layoutX="135.0" layoutY="98.0" mnemonicParsing="false" text="Delete" />
                   <Spinner layoutX="427.0" layoutY="98.0" prefHeight="25.0" prefWidth="89.0" />
-                  <Label layoutX="458.0" layoutY="102.0" text="1" />
-                  <Label layoutX="332.0" layoutY="102.0" text="100000 VNĐ" />
+                  <Label layoutX="458.0" layoutY="102.0" text="2" />
+                  <Label layoutX="331.0" layoutY="102.0" text="988 đ VNĐ" />
                </children>
             </Pane>
          </children>
@@ -58,7 +57,20 @@
                </font>
             </Label>
             <Button layoutX="16.0" layoutY="186.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="142.0" style="-fx-background-color: red;" text="Place Order" />
+            <Label layoutX="104.0" layoutY="38.0" text="1,976 VNĐ" />
+            <Label layoutX="104.0" layoutY="80.0" text="2,173 VNĐ" />
+            <Label layoutX="121.0" layoutY="109.0" text="VAT(10%)" textFill="#eb0707" />
          </children>
       </Pane>
+      <Label layoutX="88.0" layoutY="43.0" textFill="#0c8608">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="76.0" fitWidth="118.0" layoutX="6.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Downloads/logo.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
